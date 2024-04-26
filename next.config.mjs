@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   experimental: {
-    // swrDelta: 10,
+    swrDelta: 3600,
   },
 };
 
