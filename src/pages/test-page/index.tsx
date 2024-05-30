@@ -1,6 +1,7 @@
 import { GetStaticProps } from "next";
 
 export const getStaticProps: GetStaticProps = async () => {
+  console.log("Node.js version:", process.version);
   console.log("execute getStaticProps");
   return {
     props: {
